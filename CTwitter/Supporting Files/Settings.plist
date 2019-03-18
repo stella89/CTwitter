@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TwitterApiKey</key>
+	<string>O70GJ17uAbBzNpXPS7zoBby7c</string>
+	<key>TwitterApiSecretKey</key>
+	<string>iDQsJ7B6D7rbBrYRn4nFW1JBNdzwOEZsCfFEcyUZmQX0GhDl1s</string>
+	<key>TwitterApiBaseUrl</key>
+	<string>https://api.twitter.com/</string>
+</dict>
+</plist>

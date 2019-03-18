@@ -1,0 +1,36 @@
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "2XP-vb-80Z"; */
+"2XP-vb-80Z.title" = "Search";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "2cU-g6-rCT"; */
+"2cU-g6-rCT.title" = "Home";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Twitter"; ObjectID = "5KV-qx-zqD"; */
+"5KV-qx-zqD.normalTitle" = "Sign in with Twitter";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "CTV-9Q-j5M"; */
+"CTV-9Q-j5M.title" = "Search";
+
+/* Class = "UILabel"; text = "Radius"; ObjectID = "QcT-Db-uCj"; */
+"QcT-Db-uCj.text" = "Radius";
+
+/* Class = "UINavigationItem"; title = "Timeline"; ObjectID = "TUM-6X-Guk"; */
+"TUM-6X-Guk.title" = "Timeline";
+
+/* Class = "UILabel"; text = "See what's happening arround you right now."; ObjectID = "dST-zr-cO8"; */
+"dST-zr-cO8.text" = "See what's happening arround you right now.";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "g4e-t6-A5l"; */
+"g4e-t6-A5l.title" = "Home";
+
+/* Class = "UISegmentedControl"; kIt-TC-jVK.segmentTitles[0] = "5km"; ObjectID = "kIt-TC-jVK"; */
+"kIt-TC-jVK.segmentTitles[0]" = "5km";
+
+/* Class = "UISegmentedControl"; kIt-TC-jVK.segmentTitles[1] = "10km"; ObjectID = "kIt-TC-jVK"; */
+"kIt-TC-jVK.segmentTitles[1]" = "10km";
+
+/* Class = "UISegmentedControl"; kIt-TC-jVK.segmentTitles[2] = "15km"; ObjectID = "kIt-TC-jVK"; */
+"kIt-TC-jVK.segmentTitles[2]" = "15km";
+
+/* Class = "UISegmentedControl"; kIt-TC-jVK.segmentTitles[3] = "20km"; ObjectID = "kIt-TC-jVK"; */
+"kIt-TC-jVK.segmentTitles[3]" = "20km";

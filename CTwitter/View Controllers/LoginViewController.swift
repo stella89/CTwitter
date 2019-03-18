@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginViewController.swift
 //  CTwitter
 //
 //  Created by Djivede on 2019-03-16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
