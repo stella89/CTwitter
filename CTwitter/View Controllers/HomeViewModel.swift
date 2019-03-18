@@ -36,7 +36,7 @@ class HomeViewModel: NSObject {
 	}
 	
 	func stopObserving() {
-		GeocodeTweetsObserver.instance.startObserving()
+		GeocodeTweetsObserver.instance.stopObserving()
 	}
 }
 

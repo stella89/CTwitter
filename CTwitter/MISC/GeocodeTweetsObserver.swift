@@ -72,7 +72,7 @@ class GeocodeTweetsObserver: NSObject {
 	func callApi() {
 		let maxTweetId = self.tweets.map({ $0.tweetID}).max()
 		
-		TwitterApiFacade.searchTweets(geocodeSpecifier: geocodeSpecifier, sinceTweetId: maxTweetId, count: 30) { [weak self] (tweets) in
+		TwitterApiFacade.searchTweets(geocodeSpecifier: geocodeSpecifier, sinceTweetId: maxTweetId, count: limit) { [weak self] (tweets) in
 			let tweetsWithCoordinate = tweets?.filter({ $0.latitude != nil && $0.longitude != nil})
 			
 			DispatchQueue.global(qos: .background).async { [weak self] in
