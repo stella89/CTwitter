@@ -1,12 +1,20 @@
 
 /* Class = "UITabBarItem"; title = "Search"; ObjectID = "2XP-vb-80Z"; */
-"2XP-vb-80Z.title" = "Search";
+"2XP-vb-80Z.title" = "Rechercher";
 
 /* Class = "UITabBarItem"; title = "Home"; ObjectID = "2cU-g6-rCT"; */
-"2cU-g6-rCT.title" = "Home";
+"2cU-g6-rCT.title" = "Acceuil";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "AbV-ud-9Ed"; */
+
+"AbV-ud-9Ed.title" = "Paramètres";
+
+"XB7-bb-7S0.title" = "Paramètres";
+
+"rcm-CK-uFu.title" ="Paramètres";
 
 /* Class = "UIButton"; normalTitle = "Sign in with Twitter"; ObjectID = "5KV-qx-zqD"; */
-"5KV-qx-zqD.normalTitle" = "Sign in with Twitter";
+"5KV-qx-zqD.normalTitle" = "Connectez vous à Twitter";
 
 /* Class = "UITabBarItem"; title = "Search"; ObjectID = "CTV-9Q-j5M"; */
 "CTV-9Q-j5M.title" = "Search";
@@ -15,13 +23,13 @@
 "QcT-Db-uCj.text" = "Radius";
 
 /* Class = "UINavigationItem"; title = "Timeline"; ObjectID = "TUM-6X-Guk"; */
-"TUM-6X-Guk.title" = "Timeline";
+"TUM-6X-Guk.title" = "Fil d'actualité";
 
 /* Class = "UILabel"; text = "See what's happening arround you right now."; ObjectID = "dST-zr-cO8"; */
-"dST-zr-cO8.text" = "See what's happening arround you right now.";
+"dST-zr-cO8.text" = "Decouvrez ce qui se passe actuellement autour de vous.";
 
 /* Class = "UITabBarItem"; title = "Home"; ObjectID = "g4e-t6-A5l"; */
-"g4e-t6-A5l.title" = "Home";
+"g4e-t6-A5l.title" = "Acceuil";
 
 /* Class = "UISegmentedControl"; kIt-TC-jVK.segmentTitles[0] = "5km"; ObjectID = "kIt-TC-jVK"; */
 "kIt-TC-jVK.segmentTitles[0]" = "5km";
@@ -34,3 +42,5 @@
 
 /* Class = "UISegmentedControl"; kIt-TC-jVK.segmentTitles[3] = "20km"; ObjectID = "kIt-TC-jVK"; */
 "kIt-TC-jVK.segmentTitles[3]" = "20km";
+
+"i00-R8-CFP.normalTitle" = "Se déconnecter";

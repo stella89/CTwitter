@@ -9,7 +9,7 @@ class Settings: NSObject {
 		registerDefaults()
 	}
 	
-	func stringForkey(key: String) -> String? {
+	func stringForkey(_ key: String) -> String? {
 		return prefs.string(forKey: key)
 	}
 	

@@ -1,13 +1,6 @@
-//
-//  UIColor+CTwitter.swift
-//  CTwitter
-//
-//  Created by Djivede on 2019-03-17.
-//  Copyright © 2019 spectrumdt. All rights reserved.
-//
-
 import UIKit
 
-class UIColor_CTwitter: NSObject {
-
+extension UIColor {
+	static var cLightGray = UIColor(hex: "#CED6DC")
+	static var cGreen = UIColor(hex: "#458B00")
 }

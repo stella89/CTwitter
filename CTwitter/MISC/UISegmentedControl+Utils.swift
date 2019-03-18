@@ -8,6 +8,8 @@
 
 import UIKit
 
-class UISegmentedControl_Utils: NSObject {
-
+extension UISegmentedControl {
+	var value: String? {
+		return titleForSegment(at: selectedSegmentIndex)
+	}
 }

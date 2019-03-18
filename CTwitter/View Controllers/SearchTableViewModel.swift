@@ -1,13 +1,10 @@
-//
-//  SearchTableViewModel.swift
-//  CTwitter
-//
-//  Created by Djivede on 2019-03-17.
-//  Copyright © 2019 spectrumdt. All rights reserved.
-//
-
 import UIKit
+import TwitterKit
 
 class SearchTableViewModel: NSObject {
-
+	private let client = TWTRAPIClient.withCurrentUser()
+	
+	func generateDataSource(query: String?) -> TWTRSearchTimelineDataSource {
+		return TWTRSearchTimelineDataSource(searchQuery: query ?? "canada", apiClient: client)
+	}
 }

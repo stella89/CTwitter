@@ -1,11 +1,3 @@
-//
-//  TWTRTweetExtended.swift
-//  CTwitter
-//
-//  Created by Djivede on 2019-03-16.
-//  Copyright © 2019 spectrumdt. All rights reserved.
-//
-
 import UIKit
 import TwitterKit
 
@@ -30,12 +22,6 @@ class TWTRTweetExtended: TWTRTweet {
 			let coordinate = coordinates["coordinates"] as? [Double] {
 				latitude = coordinate.last
 				longitude = coordinate.first
-		} else if let place = jsonDictionary["place"] as? [AnyHashable: Any],
-			let boundingBox = place["bounding_box"] as? [AnyHashable: Any],
-			let coordinates = boundingBox["coordinates"] as? [Any],
-			let coordinate = coordinates.first as? [[Double]] {
-			latitude = coordinate.first?.last
-			longitude = coordinate.first?.first
 		}
 	}
 }

@@ -1,13 +1,11 @@
-//
-//  Double+Random.swift
-//  CTwitter
-//
-//  Created by Djivede on 2019-03-16.
-//  Copyright © 2019 spectrumdt. All rights reserved.
-//
-
 import UIKit
 
-class Double_Random: NSObject {
-
+extension Double {
+	public static var random: Double {
+		return Double(arc4random()) / 0xFFFFFFFF
+	}
+	
+	public static func random(min: Double, max: Double) -> Double {
+		return Double.random * (max - min) + min
+	}
 }
